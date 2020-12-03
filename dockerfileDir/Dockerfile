@@ -20,8 +20,11 @@ Run apt install -y tree
 
 Run apt install -y python3-pip
 
+# INSTALL gmsh
 RUN pip3 install gmsh
 ENV PYTHONPATH=/usr/local/lib/python3.8/site-packages/gmsh-4.7.1-Linux64-sdk/lib:$PYTHONPATH
+
+# INSTALL gmsh GUI depended libs
 RUN apt install -y libglu1-mesa
 RUN apt install -y libxrender1
 RUN apt install -y libxcursor1
@@ -39,15 +42,7 @@ Run pip3 install h5py
 Run apt update
 Run apt-get install -y xli
 
-#Run apt install -y python3-tk
-#Run pip3 install mesh-generator
-
-#RUN apt install -y python3-gmsh
-#RUN pip3 install gmsh
 RUN pip3 install pygmsh
 RUN pip3 install meshio[all]
 RUN pip3 install pyvista
-
-#RUN cd ./docker_data_volume_test_1/python3_test/pygmesh_test
-Run pwd
 
