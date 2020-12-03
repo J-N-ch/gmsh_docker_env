@@ -1,0 +1,135 @@
+    1  python3
+    2  apt-get install -y python3-tk
+    3  pip3 install mesh-generator
+    4  python3
+    5  ls
+    6  history
+    7  cd docker_data_volume_test_1/
+    8  ls
+    9  cd python3_test/
+   10  ls
+   11  cd FEM_toy/
+   12  ls
+   13  cd ..
+   14  ls
+   15  mkdir mesh-generator_test
+   16  cd mesh-generator_test/
+   17  ls
+   18  ll
+   19  git clone git clone https://bitbucket.org/predsci/mesh_generator.git
+   20  git clone https://bitbucket.org/predsci/mesh_generator.git
+   21  ls
+   22  cd mesh_generator/
+   23  ls
+   24  cd tests
+   25  ls
+   26  ll
+   27  cd ../
+   28  cd ui_session_files/
+   29  ls
+   30  python3
+   31  ls
+   32  cd ../../
+   33  ls
+   34  cd mesh_generator/
+   35  ls
+   36  ll
+   37  cd ../
+   38  ll
+   39  cd ../
+   40  history
+   41  ls
+   42  cd mesh-generator_test/
+   43  ls
+   44  rm -r ./*
+   45  ll
+   46  git clone https://bitbucket.org/predsci/mesh_generator.git
+   47  ll
+   48  mkdir mesh_generator_output
+   49  ll
+   50  cd mesh_generator_output/
+   51  ls
+   52  cd ../
+   53  history
+   54  ls
+   55  vim build_mesh_-generator.sh
+   56  ls
+   57  cd ../
+   58  ls
+   59  apt install python3-gmsh
+   60  pip3 install pygmsh
+   61  ls
+   62  mkdir pygmesh_test
+   63  cd pygmesh_test/
+   64  ls
+   65  git clone https://github.com/nschloe/pygmsh.git
+   66  ls
+   67  cd pygmesh
+   68  cd pygmsh/
+   69  ls
+   70  cd test
+   71  ls
+   72  vim test_readme.py 
+   73  tree
+   74  python3 helpers.py 
+   75  python3 test_readme.py.py 
+   76  python3 test_readme.py
+   77  cd ../
+   78  ls
+   79  vim README.md 
+   80  ls
+   81  cd ../
+   82  ls
+   83  python3
+   84  ls
+   85  mkdir Andrews_test
+   86  cd Andrews_test/
+   87  ls
+   88  vim circle.py
+   89  pip3 search vtk
+   90  history
+   91  ls
+   92  python3 circle.py 
+   93  python3 --version
+   94  vim circle.py 
+   95  python3 --version
+   96  python3 circle.py 
+   97  ll
+   98  vim circle.py 
+   99  python3 circle.py 
+  100  ll
+  101  vim test.vtk 
+  102  pip3 install meshio[all]
+  103  python3
+  104  pip3 search pyvista
+  105  pip3 install pyvista
+  106  ls
+  107  vim showVTK.PY
+  108  ls
+  109  vim showVTK.py
+  110  python3 showVTK.py 
+  111  ls
+  112  history
+  113  ls
+  114  cd circle.py 
+  115  vim circle.py 
+  116  vim 3D.py
+  117  python3 3D.py
+  118  ls
+  119  python3 showVTK.py 
+  120  ls
+  121  python3 3D.py
+  122  vim 3D.py
+  123  python3 3D.py
+  124  ls
+  125  python3 showVTK.py 
+  126  vim showVTK.py 
+  127  python3 showVTK.py 
+  128  vim showVTK.py 
+  129  python3 showVTK.py 
+  130  vim showVTK.py 
+  131  python3 showVTK.py 
+  132  history
+  133  ls
+  134  touch docker_history.txt
+  135  history > docker_history.txt
