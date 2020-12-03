@@ -8,4 +8,7 @@
 # ./docker_build.sh
 # ./docker_run.sh
 # ============================================
-
+# After entering the container,
+# cd /dockerVolumeDir
+# gmsh
+# ============================================
